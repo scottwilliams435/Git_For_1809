@@ -1,0 +1,9 @@
+How do you see the files changed within each commit from git log?
+Using the command 'Git log' it will show you all of the commits that have occured. Using --oneline will allow us to see changes easier.
+Using --stat will allow us to see all of the file changes for each commit.
+
+How do you see the contents of what changed within each file from the git log?
+'Git log -- patch' will show the actual changes made within a file (the difference between commits).
+
+What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
+The most recent commit in history.
